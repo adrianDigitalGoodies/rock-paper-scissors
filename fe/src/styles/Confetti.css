@@ -1,0 +1,27 @@
+.confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  .confetti {
+    font-size: 24px;
+    animation: confetti-fall 4s ease-out infinite;
+  }
+  
+  @keyframes confetti-fall {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  

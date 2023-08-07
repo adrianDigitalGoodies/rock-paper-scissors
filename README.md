@@ -26,9 +26,16 @@ Choose your weapon wisely and see if you can beat the computer!
 
 ## Components
 
+### Welcome Component
+
+When you enter `http://localhost:3000`, the first thing that pops up is this page where you can add your username.
+
 ### Game Component
 
 The `Game` component is the heart of the game. It allows you to select your weapon and play against the computer. It displays the countdown timer, player's and computer's choices, and the game outcome.
+
+### Scoreboard Component
+This is part of navigation. Shows history of each player's wins or losses and can re-start the game when you select a different username. You can also add another username.
 
 ### WeaponsList Component
 
